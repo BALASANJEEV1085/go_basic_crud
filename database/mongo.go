@@ -13,7 +13,7 @@ var StudentCollection *mongo.Collection
 
 func ConnectDB() {
 
-	uri := "mongodb+srv://go:go@cluster0.vvgdhov.mongodb.net/?appName=Cluster0"
+	uri := "mongodb url"
 
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
